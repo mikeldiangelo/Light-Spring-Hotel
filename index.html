@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Affordable hotels in ojodu barger" />
+    <meta name="theme-color" content="#1a3c2e" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Light Spring Hotels</title>
+  </head>
+  <body>
+    <!-- NAVIGATION SECTION -->
+    <nav
+      id="mainNav"
+      class="navbar navbar-expand-lg fixed-top"
+      aria-label="Main navigation"
+    >
+      <div class="container">
+        <a href="#hero" class="navbar-brand nav-logo ml-2"
+          >Light <span>Spring Hotel</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Nav links + CTA -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trust">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#amenities">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a
+                href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room."
+                target="_blank"
+                rel="noopener"
+                class="btn-wa btn btn-sm py-2 px-3"
+              >
+                Book Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content py-5">
+        <div class="row">
+          <div class="col-lg-8">
+            <!-- Urgency badge -->
+            <div class="urgency-badge my-4">
+              <span class="urgency-dot"></span>
+              Only 6 Rooms Available This Weekend
+            </div>
+
+            <!-- Headline -->
+            <h1 class="hero-headline">
+              Lagos Has Noise. <br />
+              We Have Your Peace. Book a <em>Clean, Comfortable</em
+              ><br class="d-none d-sm-block" />
+              Hotel Today.
+            </h1>
+
+            <!-- Sub -->
+            <p class="hero-sub">
+              Light Spring Hotel is Ojodu Berger's most loved escape, 52
+              furnished rooms, a heated pool, fine dining, and a team that
+              treats every guest like a VIP. One message and your room is
+              confirmed.
+            </p>
+
+            <!-- CTAs -->
+            <div class="hero-ctas">
+              <a
+                href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20check%20room%20availability."
+                target="_blank"
+                rel="noopener"
+                class="btn-wa btn-wa-lg"
+              >
+                Check Availability Now
+              </a>
+              <a href="#rooms" class="btn-outline-wa">
+                <i class="bi bi-door-open"></i> See Our Rooms
+              </a>
+            </div>
+
+            <!-- Trust badges -->
+            <div class="trust-badges">
+              <span class="trust-badge"
+                ><i class="bi bi-lightning-charge-fill"></i> 24/7 Power</span
+              >
+              <span class="trust-badge"
+                ><i class="bi bi-wifi"></i> Free WiFi</span
+              >
+              <span class="trust-badge"
+                ><i class="bi bi-shield-fill-check"></i> 24/7 Security</span
+              >
+              <span class="trust-badge"
+                ><i class="bi bi-geo-alt-fill"></i> Ojodu Berger, Lagos</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero-scroll" aria-hidden="true">
+        <i class="bi bi-chevron-double-down"></i>
+      </div>
+    </section>
+
+    <!-- OFFER SECTION -->
+    <section id="offerBar" aria-label="Limited time offer">
+      <div class="container">
+        <div class="offer-inner">
+          <span class="offer-tag">🔥 Limited Offer</span>
+          <p class="offer-text mb-0">
+            Get <strong>10% OFF</strong> when you stay
+            <strong>2 nights</strong> — valid this weekend only!
+          </p>
+          <div class="countdown" aria-label="Offer countdown timer">
+            <i class="bi bi-clock" style="color: var(--gold-light)"></i>
+            <span>Ends in:</span>
+            <span class="countdown-unit" id="cdHr">11</span>
+            <span class="countdown-sep">:</span>
+            <span class="countdown-unit" id="cdMin">59</span>
+            <span class="countdown-sep">:</span>
+            <span class="countdown-unit" id="cdSec">00</span>
+          </div>
+          <a
+            href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20claim%20the%2010%25%20discount%20for%202%2B%20nights."
+            target="_blank"
+            rel="noopener"
+            class="btn-wa btn btn-sm py-2 px-3"
+          >
+            <i
+              class="bi bi-ticket-perforated-fill"
+              style="margin-right: 5px"
+            ></i>
+            Claim Offer
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOMS SECTION -->
+    <section id="rooms" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <div class="section-label">Our Rooms</div>
+          <h2 class="section-title">Choose Your Room</h2>
+          <p class="section-sub mt-2">
+            Whether it's business, leisure, or a celebration, every room at
+            Light Spring is designed to make you feel like you never want to
+            leave.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- STANDARD -->
+          <div class="col-md-4 reveal reveal-delay-1">
+            <div class="room-card">
+              <div class="room-img-wrap">
+                <img
+                  src="public/images/room-standard.jpg"
+                  alt="Standard Room at Lightsprings Hotel"
+                  loading="lazy"
+                />
+                <span class="room-badge">Standard</span>
+              </div>
+              <div class="room-body">
+                <div class="room-name">Standard Room</div>
+                <div class="room-price">₦52,000 <span>/ night</span></div>
+                <div class="room-old-price">₦58,000</div>
+                <small class="my-2">Comfort that doesn't cut corners.</small>
+                <div class="room-urgency">
+                  <i class="bi bi-fire"></i> Only 3 rooms left
+                </div>
+                <ul class="room-features">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Queen-size bed with
+                    premium bedding
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Private en-suite
+                    bathroom
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Air conditioning
+                    (24/7)
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> High-speed Wifi
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Flat-screen Tv
+                  </li>
+                </ul>
+                <a
+                  href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20the%20Standard%20Room%20at%20%E2%82%A652%2C000%2Fnight."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-wa w-100 justify-content-center btn btn-sm py-2 px-3"
+                >
+                  <i class="bi bi-door-open-fill"></i> Book a Room
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DELUXE -->
+          <div class="col-md-4 reveal reveal-delay-2">
+            <div
+              class="room-card"
+              style="border-color: var(--green); border-width: 2px"
+            >
+              <div class="room-img-wrap">
+                <img
+                  src="public/images/room-deluxe.jpg"
+                  alt="Deluxe Room at Lightsprings Hotel"
+                  loading="lazy"
+                />
+                <span class="room-badge popular">
+                  <i class="bi bi-star"></i> Most Popular</span
+                >
+              </div>
+              <div class="room-body">
+                <div class="room-name">Deluxe Room</div>
+                <div class="room-price">₦60,000 <span>/ night</span></div>
+                <div class="room-old-price">₦68,000</div>
+                <small class="my-2"
+                  >More space. More style. Same great price.</small
+                >
+                <div class="room-urgency">
+                  <i class="bi bi-fire"></i> Only 2 rooms left
+                </div>
+                <ul class="room-features">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> King-size bed + work
+                    desk
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Spacious bathroom +
+                    hot shower
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Smart TV
+                    (Netflix-ready)
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> High-speed WiFi
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Complimentary
+                    breakfast
+                  </li>
+                </ul>
+                <a
+                  href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20the%20Deluxe%20Room%20at%20%E2%82%A660%2C000%2Fnight."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-wa w-100 justify-content-center btn btn-sm py-2 px-3"
+                >
+                  <i class="bi bi-door-open-fill"></i> Book a Room
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXECUTIVE -->
+          <div class="col-md-4 reveal reveal-delay-3">
+            <div class="room-card">
+              <div class="room-img-wrap">
+                <img
+                  src="public/images/room-executive.jpg"
+                  alt="Executive Room at Lightsprings Hotel"
+                  loading="lazy"
+                />
+                <span class="room-badge" style="background: var(--gold-light)"
+                  >Executive</span
+                >
+              </div>
+              <div class="room-body">
+                <div class="room-name">Executive Room</div>
+                <div class="room-price">₦82,000 <span>/ night</span></div>
+                <div class="room-old-price">₦92,000</div>
+                <small class="my-2"
+                  >For the guest who deserves the very best.</small
+                >
+                <div class="room-urgency">
+                  <i class="bi bi-fire"></i> Only 1 room left
+                </div>
+                <ul class="room-features">
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Luxury king bed +
+                    lounge seating
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Private jacuzzi
+                    bathroom with bathtub
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> 55" Smart TV +
+                    minibar
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Priority check-in &
+                    room service
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle-fill"></i> Full breakfast +
+                    airport pickup
+                  </li>
+                </ul>
+                <a
+                  href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20the%20Executive%20Room%20at%20%E2%82%A682%2C000%2Fnight."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-wa w-100 justify-content-center btn btn-sm py-2 px-3"
+                >
+                  <i class="bi bi-door-open-fill"></i> Book a Room
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+
+        <!-- Bottom note -->
+        <p
+          class="text-center mt-4"
+          style="font-size: 0.85rem; color: var(--text-muted)"
+        >
+          <i class="bi bi-info-circle"></i>
+          All prices include VAT. Children under 12 stay FREE when sharing with
+          parents. Send us a message for group & corporate rates.
+        </p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="trust">
+      <div class="container">
+        <!-- Stats -->
+        <div class="stats-ticker-wrap">
+          <div class="stats-ticker reveal">
+            <div class="ticker-item">
+              <span class="ticker-num">1000+</span>
+              <span class="ticker-label">Happy Guests</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">4.9★</span>
+              <span class="ticker-label">Average Rating</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">2 Min</span>
+              <span class="ticker-label">Avg. Booking Time</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">100%</span>
+              <span class="ticker-label">Secure & Clean</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">52</span>
+              <span class="ticker-label">Rooms</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">500</span>
+              <span class="ticker-label">Seater Event Hall</span>
+            </div>
+
+            <!-- Duplicate for seamless loop -->
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">1000+</span>
+              <span class="ticker-label">Happy Guests</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">4.9★</span>
+              <span class="ticker-label">Average Rating</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">2 Min</span>
+              <span class="ticker-label">Avg. Booking Time</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">100%</span>
+              <span class="ticker-label">Secure & Clean</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">52</span>
+              <span class="ticker-label">Rooms</span>
+            </div>
+
+            <div class="ticker-divider">✦</div>
+
+            <div class="ticker-item">
+              <span class="ticker-num">500</span>
+              <span class="ticker-label">Seater Event Hall</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mb-5 reveal">
+          <div class="section-label">Guest Reviews</div>
+          <h2 class="section-title">Don't Take Our Word For It</h2>
+        </div>
+
+        <div class="row g-4">
+          <!-- Review 1 -->
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+            <div class="review-card">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                Booked via WhatsApp and got a reply in under 3 minutes. Room was
+                spotless. AC worked perfectly all night. Will definitely come
+                back!
+              </p>
+              <div class="reviewer">
+                <div class="reviewer-avatar" style="background: var(--green)">
+                  AO
+                </div>
+                <div>
+                  <div class="reviewer-name">Adaeze O.</div>
+                  <div class="reviewer-meta">Lagos Island · 2 nights</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+            <div class="review-card">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                Best budget hotel I've stayed at in Ojodu Berger. Security was
+                tight, power never went out, and the staff were very friendly.
+                Great value for money.
+              </p>
+              <div class="reviewer">
+                <div class="reviewer-avatar" style="background: #2c5282">
+                  EM
+                </div>
+                <div>
+                  <div class="reviewer-name">Emeka M.</div>
+                  <div class="reviewer-meta">Abuja · Business trip</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+            <div class="review-card">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                I love how easy the booking was. Just sent a WhatsApp, got a
+                confirmation, and checked in. No wahala at all. The Deluxe room
+                is amazing!
+              </p>
+              <div class="reviewer">
+                <div class="reviewer-avatar" style="background: #744210">
+                  FI
+                </div>
+                <div>
+                  <div class="reviewer-name">Funmi I.</div>
+                  <div class="reviewer-meta">Ibadan · Weekend stay</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-4">
+            <div class="review-card">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                Very clean and quiet. WiFi was fast enough for work calls. The
+                location is perfect, close to everywhere in Berger. Highly
+                recommend.
+              </p>
+              <div class="reviewer">
+                <div class="reviewer-avatar" style="background: #702459">
+                  KB
+                </div>
+                <div>
+                  <div class="reviewer-name">Kola B.</div>
+                  <div class="reviewer-meta">Port Harcourt · Work trip</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust pillars -->
+        <div class="row mt-5">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="trust-pillars reveal">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="pillar">
+                    <div class="pillar-icon"><i class="bi bi-stars"></i></div>
+                    <div>
+                      <div class="pillar-title">Spotlessly Clean Rooms</div>
+                      <div class="pillar-desc">
+                        Deep-cleaned before every check-in. Fresh linen every
+                        day.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pillar ps-md-4">
+                    <div class="pillar-icon">
+                      <i class="bi bi-shield-lock-fill"></i>
+                    </div>
+                    <div>
+                      <div class="pillar-title">24/7 Verified Security</div>
+                      <div class="pillar-desc">
+                        CCTV, trained guards, and controlled gate access round
+                        the clock.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="pillar ps-md-4">
+                    <div class="pillar-icon">
+                      <i class="bi bi-whatsapp"></i>
+                    </div>
+                    <div>
+                      <div class="pillar-title">Instant WhatsApp Booking</div>
+                      <div class="pillar-desc">
+                        Get confirmed in minutes. No forms, no stress, no
+                        delays.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AMENITIES SECTION -->
+    <section id="amenities">
+      <div class="container" style="position: relative; z-index: 1">
+        <div class="text-center mb-5 reveal">
+          <div
+            class="section-label"
+            style="
+              color: var(--gold-light);
+              background: rgba(201, 168, 76, 0.12);
+              border-color: rgba(201, 168, 76, 0.3);
+            "
+          >
+            Included in Every Stay
+          </div>
+          <h2 class="section-title white">Everything You Need, Already Here</h2>
+          <p class="section-sub white mt-2">
+            No hidden charges. No surprises. Just a complete, comfortable
+            experience.
+          </p>
+        </div>
+
+        <div class="amenity-grid reveal">
+          <div class="amenity-item">
+            <i class="bi bi-lightning-charge-fill amenity-icon"></i>
+            <div class="amenity-label">24/7 Electricity</div>
+            <div class="amenity-note">Generator backup always on</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-wifi amenity-icon"></i>
+            <div class="amenity-label">High-Speed WiFi</div>
+            <div class="amenity-note">Strong signal in all rooms</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-thermometer-snow amenity-icon"></i>
+            <div class="amenity-label">Air Conditioning</div>
+            <div class="amenity-note">Individual room control</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-p-circle-fill amenity-icon"></i>
+            <div class="amenity-label">Free Parking</div>
+            <div class="amenity-note">Secure, guarded compound</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-basket2-fill amenity-icon"></i>
+            <div class="amenity-label">Room Service</div>
+            <div class="amenity-note">Food delivered to your door</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-tv-fill amenity-icon"></i>
+            <div class="amenity-label">Smart TV</div>
+            <div class="amenity-note">Cable + streaming ready</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-droplet-fill amenity-icon"></i>
+            <div class="amenity-label">Hot Water</div>
+            <div class="amenity-note">24/7 hot shower access</div>
+          </div>
+
+          <div class="amenity-item">
+            <i class="bi bi-shield-fill-check amenity-icon"></i>
+            <div class="amenity-label">24/7 Security</div>
+            <div class="amenity-note">CCTV + trained guards</div>
+          </div>
+        </div>
+
+        <!-- Amenities CTA -->
+        <div class="text-center mt-4 reveal">
+          <a
+            href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20your%20amenities%20and%20book%20a%20room."
+            target="_blank"
+            rel="noopener"
+            class="btn-wa btn-wa-lg btn btn-sm py-3 px-3"
+          >
+            Book &amp; Ask Questions Today
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section id="location">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <div class="section-label">Our Location</div>
+          <h2 class="section-title">
+            Right Where Lagos Needs <br />
+            You to Be
+          </h2>
+          <p class="section-sub mt-2">
+            Right in the heart of Ojodu Berger. Close to major roads, and
+            everywhere that matters.
+          </p>
+        </div>
+
+        <div class="row g-5 align-items-start">
+          <!-- Location info -->
+          <div class="col-lg-5 reveal">
+            <div class="d-flex align-items-center gap-2 mb-3">
+              <i
+                class="bi bi-geo-alt-fill"
+                style="color: var(--green); font-size: 1.4rem"
+              ></i>
+              <div>
+                <div
+                  style="font-weight: 700; color: var(--dark); font-size: 1rem"
+                >
+                  Light Spring Hotel
+                </div>
+                <div style="font-size: 0.84rem; color: var(--text-muted)">
+                  Ojodu Berger, Lagos, Nigeria
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-2 mb-4">
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Ojodu Berger</div>
+                    <div class="loc-dist">2 min away</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Ikeja City Mall</div>
+                    <div class="loc-dist">10 min drive</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Maryland Mall</div>
+                    <div class="loc-dist">12 min drive</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Murtala Airport</div>
+                    <div class="loc-dist">15 min drive</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Lagos Island / VI</div>
+                    <div class="loc-dist">30 min drive</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="location-card">
+                  <i class="bi bi-geo-fill"></i>
+                  <div>
+                    <div class="loc-name">Oshodi</div>
+                    <div class="loc-dist">9 min away</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ride note -->
+            <div
+              class="d-flex align-items-start gap-2 p-3 rounded-3 mb-4"
+              style="
+                background: rgba(26, 92, 58, 0.07);
+                border: 1px solid rgba(26, 92, 58, 0.15);
+              "
+            >
+              <i
+                class="bi bi-car-front-fill mt-1"
+                style="color: var(--green); flex-shrink: 0"
+              ></i>
+              <p
+                class="mb-0"
+                style="font-size: 0.86rem; color: var(--text-muted)"
+              >
+                <strong style="color: var(--dark)"
+                  >Bolt & Uber pickups right at the gate.</strong
+                >
+                No trekking. No confusion. Just easy access.
+              </p>
+            </div>
+
+            <!-- Location CTA -->
+            <a
+              href="https://wa.me/23412345678?text=Hi%2C%20please%20send%20me%20the%20hotel%20address%20and%20directions.%20I'd%20also%20like%20to%20book%20a%20room."
+              target="_blank"
+              rel="noopener"
+              class="btn-wa btn-wa-lg btn btn-sm py-2 px-3"
+            >
+              Get Directions + Book Now
+            </a>
+          </div>
+
+          <!-- Map -->
+          <div class="col-lg-7 reveal reveal-delay-2">
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126810.16316387945!2d3.487194683422845!3d6.669510791960203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9381601e96b5%3A0x8d79a42c1c6bb9d4!2sOjodu%20Berger%2C%20Lagos!5e0!3m2!1sen!2sng!4v1776576576165!5m2!1sen!2sng"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="LightSprings Hotel Location — Ojodu Berger, Lagos"
+              >
+              </iframe>
+            </div>
+            <p
+              class="mt-2 text-center"
+              style="font-size: 0.8rem; color: var(--text-muted)"
+            >
+              <i class="bi bi-pin-map-fill" style="color: var(--green)"></i>
+              Exact address sent on WhatsApp after booking confirmation
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section id="finalCta">
+      <div class="container" style="position: relative; z-index: 1">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div
+              class="urgency-badge mx-auto reveal"
+              style="margin-bottom: 1.4rem"
+            >
+              <span class="urgency-dot"></span>
+              Rooms Filling Fast — Don't Miss Out
+            </div>
+
+            <h2 class="cta-headline reveal">
+              Your Perfect Lagos Stay is One <em>Message Away.</em><br />
+              Book in Under 2 Minutes.
+            </h2>
+
+            <p class="section-sub white mt-3 reveal">
+              No long forms. No back-and-forth. Make a booking and we'll confirm
+              your room, share the address, and have you checked in fast. <br />
+              Comfort is waiting.
+            </p>
+
+            <div class="cta-reassurances reveal">
+              <span class="cta-point"
+                ><i class="bi bi-check-circle-fill"></i> Instant reply
+                guaranteed</span
+              >
+              <span class="cta-point"
+                ><i class="bi bi-check-circle-fill"></i> No upfront payment
+                required</span
+              >
+              <span class="cta-point"
+                ><i class="bi bi-check-circle-fill"></i> Clean, secure, fully
+                furnished room</span
+              >
+              <span class="cta-point"
+                ><i class="bi bi-check-circle-fill"></i> 24/7 power, WiFi & pool
+                access</span
+              >
+            </div>
+
+            <a
+              href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room%20at%20LightSpring%20Hotel."
+              target="_blank"
+              rel="noopener"
+              class="btn-wa btn-wa-lg reveal btn btn-sm px-3"
+              style="font-size: 1.15rem; padding: 1rem"
+            >
+              Book via WhatsApp
+            </a>
+
+            <p
+              class="mt-3 reveal"
+              style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.45)"
+            >
+              Available 24/7 · Typically replies in under 3 minutes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-md-4">
+            <div class="footer-logo">Light <span>Spring Hotel</span></div>
+            <div class="footer-tagline">Elegant. Secure. Affordable</div>
+            <div class="d-flex gap-3 mt-3">
+              <a
+                href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room."
+                target="_blank"
+                rel="noopener"
+                class="footer-link"
+                style="color: var(--wa-green)"
+              >
+                <i class="bi bi-whatsapp" style="font-size: 1.1rem"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/lightspringhotel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener"
+                class="footer-link"
+                style="color: #e1306c"
+              >
+                <i class="bi bi-instagram" style="font-size: 1.1rem"></i>
+              </a>
+              <a href="tel:+2348118620454" class="footer-link">
+                <i class="bi bi-telephone-fill" style="font-size: 1.1rem"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick links -->
+          <div class="col-md-2">
+            <div class="footer-heading">Quick Links</div>
+            <div class="d-flex flex-column gap-2">
+              <a href="#rooms" class="footer-link">Rooms</a>
+              <a href="#trust" class="footer-link">Reviews</a>
+              <a href="#amenities" class="footer-link">Amenities</a>
+              <a href="#location" class="footer-link">Location</a>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-3">
+            <div class="footer-heading">Contact Us</div>
+            <div class="d-flex flex-column gap-2">
+              <a href="tel:+2348118620454" class="footer-link">
+                <i class="bi bi-telephone-fill"></i> +234 12345678
+              </a>
+              <a
+                href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room."
+                target="_blank"
+                rel="noopener"
+                class="footer-link"
+              >
+                <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+              </a>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener"
+                class="footer-link"
+              >
+                <i class="bi bi-instagram"></i> @lightspringhotel
+              </a>
+              <span class="footer-link">
+                <i class="bi bi-geo-alt-fill"></i> Ojodu Berger, Lagos
+              </span>
+            </div>
+          </div>
+
+          <!-- Final CTA mini -->
+          <div class="col-md-3">
+            <div class="footer-heading">Book Instantly</div>
+            <!-- <p style="font-size:.82rem;color:rgba(255,255,255,.45);margin-bottom:.9rem;">
+            Available 24/7. Reply in under 3 minutes.
+          </p> -->
+            <a
+              href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room%20at%20LightSpring%20Hotel."
+              target="_blank"
+              rel="noopener"
+              class="btn-wa w-100 justify-content-center btn btn-sm py-2 px-2"
+            >
+              <i class="bi bi-whatsapp"></i> Book Instantly.
+            </a>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <p class="footer-copy">
+          &copy; <span id="footerYear"></span> Light Spring Hotel · All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ASIDE WHATSAPP BUTTON -->
+    <div id="stickyWa" aria-label="Book on WhatsApp">
+      <div class="sticky-tooltip" id="stickyTooltip">
+        💬 Book Now — Rooms Available
+      </div>
+      <a
+        href="https://wa.me/23412345678?text=Hi%2C%20I'd%20like%20to%20book%20a%20room."
+        target="_blank"
+        rel="noopener"
+        class="sticky-btn"
+        aria-label="Chat on WhatsApp"
+      >
+        <span class="sticky-ring" aria-hidden="true"></span>
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+    <script>
+      /* ── NAVBAR SCROLL ── */
+      const nav = document.getElementById("mainNav");
+      window.addEventListener(
+        "scroll",
+        () => {
+          nav.classList.toggle("scrolled", window.scrollY > 60);
+        },
+        { passive: true },
+      );
+
+      /* ── STICKY WA BUTTON ── */
+      const stickyWa = document.getElementById("stickyWa");
+      const stickyTooltip = document.getElementById("stickyTooltip");
+      let tooltipTimer;
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (window.scrollY > 300) {
+            stickyWa.classList.add("visible");
+          } else {
+            stickyWa.classList.remove("visible");
+          }
+        },
+        { passive: true },
+      );
+
+      // Hide tooltip after 5s
+      tooltipTimer = setTimeout(() => {
+        if (stickyTooltip) stickyTooltip.style.display = "none";
+      }, 5000);
+
+      /* ── COUNTDOWN TIMER ── */
+      (function countdown() {
+        // Set target to ~11 hours 59 minutes from page load
+        const target = new Date(Date.now() + (11 * 3600 + 59 * 60) * 1000);
+
+        const hrEl = document.getElementById("cdHr");
+        const minEl = document.getElementById("cdMin");
+        const secEl = document.getElementById("cdSec");
+
+        function pad(n) {
+          return String(n).padStart(2, "0");
+        }
+
+        function tick() {
+          const diff = Math.max(0, target - Date.now());
+          const h = Math.floor(diff / 3600000);
+          const m = Math.floor((diff % 3600000) / 60000);
+          const s = Math.floor((diff % 60000) / 1000);
+          if (hrEl) hrEl.textContent = pad(h);
+          if (minEl) minEl.textContent = pad(m);
+          if (secEl) secEl.textContent = pad(s);
+          if (diff > 0) requestAnimationFrame(tick);
+        }
+        tick();
+      })();
+
+      /* ── SCROLL REVEAL ── */
+      (function initReveal() {
+        const els = document.querySelectorAll(".reveal");
+        if (!("IntersectionObserver" in window)) {
+          els.forEach((el) => el.classList.add("revealed"));
+          return;
+        }
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("revealed");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12 },
+        );
+        els.forEach((el) => observer.observe(el));
+      })();
+
+      /* ── FOOTER YEAR ── */
+      const fyEl = document.getElementById("footerYear");
+      if (fyEl) fyEl.textContent = new Date().getFullYear();
+
+      /* ── SMOOTH SCROLL (fallback for older browsers) ── */
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const id = a.getAttribute("href");
+          if (id === "#") return;
+          const target = document.querySelector(id);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
